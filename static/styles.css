@@ -1,0 +1,135 @@
+
+/* Reset de estilos básicos para garantizar consistencia en diferentes navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sección Destacada */
+#inicio {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio h1 {
+    color: #333;
+}
+
+#inicio p {
+    color: #666;
+}
+
+/* Acerca de Nosotros */
+#acerca {
+    padding: 50px;
+}
+
+/* Miembros del Equipo */
+#miembros {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+#miembros h2 {
+    color: #333;
+}
+
+/* Noticias y Actualizaciones */
+#noticias {
+    padding: 50px;
+}
+
+#noticias h2 {
+    color: #333;
+}
+
+/* Contacto */
+#contacto {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#contacto h2 {
+    color: #333;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#logo{
+    width: 350px;
+    border-radius: 15%;
+}
+
+#miembros-equipo {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.miembro {
+    margin-bottom: 30px;
+}
+
+.miembro img {
+    border-radius: 50%; /* Para hacer las imágenes redondas */
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+}
+
+.miembro h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.miembro p {
+    color: #666;
+}
+
+/* Agrega estilos adicionales según sea necesario */
